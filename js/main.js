@@ -27,7 +27,7 @@ const quotes = [
 ];
 const dumbQuotes = [
   {
-    quote: "Срать без сигарки, как чай без заварки",
+    quote: "quote is not ready",
     person: "Андрей Карп",
   },
   {
@@ -38,6 +38,10 @@ const dumbQuotes = [
     quote: "ХВАТИТ ЛЕЙМИТЬ!",
     person: "Руслан Динозаврович",
   },
+  {
+    quote: "Если он размутит меня, то он ...dead",
+    person: "Кабаноидная масса",
+  }
 ];
 
 quotes.push(...dumbQuotes);
