@@ -120,14 +120,16 @@ body {
     background: rgb(59,2,57);
     background: linear-gradient(90deg, rgba(59,2,57,1) 0%, rgba(59,2,57,0.6617997540813201) 47%, rgba(59,2,57,1) 100%);
     border-radius: 15px;
-    padding: 50px 40px;
     box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .text-area {
     font-size: 1.5rem;
     line-height: 1.5;
     color: #fff;
+    padding: 40px 30px 0;
 }
 
 .person {
@@ -136,28 +138,26 @@ body {
     text-transform: uppercase;
     margin-top: 25px;
 }
-
+.button-area {
+    margin-top: auto;
+}
 .button-area button{
-    background: #534351;
+    background: #53435199;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     padding: 10px 15px;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: 0.5s ease;
+    width: 100%;
 }
 
 .button-area button:hover {
-    background: rgb(254, 254, 138);
-    color: rgb(189, 69, 222);
-    transform: scale(0.9);
+    background: rgb(5, 68, 89);
+    color: rgb(255, 255, 255);
+    transform: scale(1.02);
 }
 
-.button-area button:active {
-    background: rgb(254, 254, 138);
-    color: rgb(189, 69, 222);
-    transform: scale(0.9);
-}
 
 @media(max-width: 460px) {
     .main-content {
