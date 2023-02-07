@@ -101,6 +101,7 @@ body {
 .container {
     width: 550px;
     height: 450px;
+    padding: 0 10px;
 }
 
 .header {
@@ -160,9 +161,6 @@ body {
 
 
 @media(max-width: 460px) {
-    .main-content {
-        padding: 40px 30px;
-    }
     .main-content .text-area {
         font-size: 1.2rem;
     }
